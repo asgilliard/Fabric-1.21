@@ -40,7 +40,7 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
-[clientSideConfig]
+
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server
@@ -54,6 +54,7 @@ globalExecutorParallelism = "default"
 		enabled = "default"
 		# (Default: 56) Max render distance allowed in game options
 		maxViewDistance = "default"
+
 [noTickViewDistance]
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
@@ -83,6 +84,7 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	maxViewDistance = "default"
+
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
 	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
@@ -109,6 +111,7 @@ globalExecutorParallelism = "default"
 		# Please preserve quotes so this config don't break
 		# 
 		mode = "default"
+
 [ioSystem]
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
@@ -125,6 +128,8 @@ globalExecutorParallelism = "default"
 	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
+	# Set to false for the following reasons: 
+	# Incompatible with architectury@13.0.8 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
@@ -132,12 +137,14 @@ globalExecutorParallelism = "default"
 	chunkDataCacheSoftLimit = "default"
 	# (Default: 32678) Hard limit for io worker nbt cache
 	chunkDataCacheLimit = "default"
+
 [threadedWorldGen]
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = "default"
 	# (Default: false) Whether to enable this feature
 	enabled = "default"
+
 [vanillaWorldGenOptimizations]
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)

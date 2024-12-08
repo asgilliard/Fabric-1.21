@@ -1,11 +1,15 @@
-.cashe
+.cache
 .fabric
 backups
 crash-reports
+CustomSkinLoader
 data
 downloads
+flashback
 logs
+moddata
 saves
+schematics
 screenshots
 server-resource-packs
 xaero
@@ -17,3 +21,4 @@ servers.dat.*
 usercache.json
 
 mods/Flashback-0.13.0-for-MC1.21.1.jar
+mods/flashback\ incompat

@@ -1,1 +1,7 @@
-{}
+{
+  "states": {
+    "hovered": {
+      "graphics_state": "reduced"
+    }
+  }
+}

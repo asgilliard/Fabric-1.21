@@ -1,297 +1,307 @@
 {
   waila: {
-    // config.waila.plugin_waila.show_blocks
-    // json5.waila.config.default_value
+    // Отображать блоки
+    // Default value: [true]
     show_blocks: true,
-    // config.waila.plugin_waila.show_fluids
-    // json5.waila.config.default_value
+    // Отображать жидкости
+    // Попытается отображать жидкости
+    // Default value: [false]
     show_fluids: false,
-    // config.waila.plugin_waila.show_entities
-    // json5.waila.config.default_value
+    // Отображать сущности
+    // Default value: [true]
     show_entities: true,
-    // config.waila.plugin_waila.show_icon
-    // json5.waila.config.default_value
+    // Отображать иконки
+    // Default value: [true]
     show_icon: true,
-    // config.waila.plugin_waila.icon_position
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Положение иконки
+    // Default value: [MIDDLE]
+    // Available values: [TOP, MIDDLE, BOTTOM]
     icon_position: "MIDDLE",
-    // config.waila.plugin_waila.show_mod_name
-    // json5.waila.config.default_value
+    // Отображать названия модов
+    // Default value: [true]
     show_mod_name: true,
-    // config.waila.plugin_waila.show_item_mod_name
-    // json5.waila.config.default_value
+    // Отображать названия мода для предеметов
+    // Default value: [true]
     show_item_mod_name: true,
-    // config.waila.plugin_waila.show_registry
-    // json5.waila.config.default_value
+    // Отображать названия из регистра
+    // Default value: [false]
     show_registry: false
   },
   minecraft: {
-    // config.waila.plugin_minecraft.block.position
-    // json5.waila.config.default_value
+    // Отображать позицию блока
+    // Default value: [false]
     "block.position": false,
-    // config.waila.plugin_minecraft.block.state
-    // json5.waila.config.default_value
+    // Отображать состояние блока
+    // Default value: [false]
     "block.state": false,
-    // config.waila.plugin_minecraft.entity.item_entity
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать сущности предметов
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "entity.item_entity": true,
-    // config.waila.plugin_minecraft.entity.position
-    // json5.waila.config.default_value
+    // Отображать сущности
+    // Default value: [false]
     "entity.position": false,
-    // config.waila.plugin_minecraft.entity.health
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать очки жизни
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "entity.health": true,
-    // config.waila.plugin_minecraft.entity.absorption
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать очки поглощения
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "entity.absorption": true,
-    // config.waila.plugin_minecraft.entity.armor
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать очки брони
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "entity.armor": true,
-    // config.waila.plugin_minecraft.entity.compact
-    // json5.waila.config.default_value
+    // Компактный режим
+    // Отображать очки жизней и брони цифрами а не иконками
+    // Default value: [false]
     "entity.compact": false,
-    // config.waila.plugin_minecraft.entity.icon_per_line
-    // json5.waila.config.default_value
+    // Максимум инокок на строку
+    // Количество иконок жизни и брони в строке перед началом следующей
+    // Default value: [25]
     "entity.icon_per_line": 25,
-    // config.waila.plugin_minecraft.entity.long_health_max
-    // json5.waila.config.default_value
+    // Максимум очков жизни для отображения
+    // Наибольшее число очков жизни для отображения в виде иконок, если у моба или игрока больше чем указано здесь, будут отображены цифры
+    // Default value: [100]
     "entity.long_health_max": 100,
-    // config.waila.plugin_minecraft.entity.long_armor_max
-    // json5.waila.config.default_value
+    // Максимум очков брони для отображения
+    // Наибольшее число очков брони для отображения в виде иконок, если у моба или игрока больше чем указано здесь, будут отображены цифры
+    // Default value: [100]
     "entity.long_armor_max": 100,
-    // config.waila.plugin_minecraft.pet.owner
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать владельца
+    // Только для лицензионных аккаунтов Minecraft
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "pet.owner": true,
-    // config.waila.plugin_minecraft.pet.hide_unknown_owner
-    // json5.waila.config.default_value
+    // Скрыть если владелец неизвестен
+    // Default value: [false]
     "pet.hide_unknown_owner": false,
-    // config.waila.plugin_minecraft.horse.jump_height
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать силу прыжка лошади
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "horse.jump_height": true,
-    // config.waila.plugin_minecraft.horse.speed
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать скорость лошади
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "horse.speed": true,
-    // config.waila.plugin_minecraft.panda.genes
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Показывать характер панд
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "panda.genes": true,
-    // config.waila.plugin_minecraft.bee.hive_pos
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать координаты улья
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "bee.hive_pos": true,
-    // config.waila.plugin_minecraft.bee.hive_honey_level
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать уровень мёда
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "bee.hive_honey_level": true,
-    // config.waila.plugin_minecraft.bee.hive_occupants
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать количество пчел в улье и пасеке
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "bee.hive_occupants": true,
-    // config.waila.plugin_minecraft.effect.beacon
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Показать эффекты маяков
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "effect.beacon": true,
-    // config.waila.plugin_minecraft.effect.mob
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Показать эффекты мобов
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "effect.mob": true,
-    // config.waila.plugin_minecraft.effect.hidden_mob
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Показать скрытые эффекты мобов
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [false]
     "effect.hidden_mob": false,
-    // config.waila.plugin_minecraft.jukebox.record
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать играющую пластинку
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "jukebox.record": true,
-    // config.waila.plugin_minecraft.timer.grow
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать таймер роста мобов
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "timer.grow": true,
-    // config.waila.plugin_minecraft.timer.breed
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Отображать таймер размножения
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "timer.breed": true,
-    // config.waila.plugin_minecraft.override.invisible_entity
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Скрывать невидимые сущности
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "override.invisible_entity": true,
-    // config.waila.plugin_minecraft.override.trapped_chest
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать сундук-ловушку как обычный сундук
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "override.trapped_chest": true,
-    // config.waila.plugin_minecraft.override.powder_snow
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать рыхлый снег как обычный
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "override.powder_snow": true,
-    // config.waila.plugin_minecraft.override.infested
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать заражённые блоки как обычные
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "override.infested": true,
-    // config.waila.plugin_minecraft.override.vehicle
-    // json5.waila.config.default_value
+    // Скрыть транспорт
+    // Скрывать вагонетки, лошадей и прочие сущности, если игрок сидит на них
+    // Default value: [true]
     "override.vehicle": true,
-    // config.waila.plugin_minecraft.breaking_progress.enabled
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Показывать прогресс ломания
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "breaking_progress.enabled": true,
-    // config.waila.plugin_minecraft.breaking_progress.color
-    // json5.waila.config.default_value
+    // Цвет индикатора ломания
+    // Default value: [-1426063361]
     "breaking_progress.color": -1426063361,
-    // config.waila.plugin_minecraft.breaking_progress.bottom_only
-    // json5.waila.config.default_value
+    // Только снизу
+    // Default value: [false]
     "breaking_progress.bottom_only": false,
-    // config.waila.plugin_minecraft.spawner.type
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать тип спаунера
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "spawner.type": true,
-    // config.waila.plugin_minecraft.plant.crop_progress
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать зрелость урожая
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "plant.crop_progress": true,
-    // config.waila.plugin_minecraft.plant.crop_growable
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать возможность роста культур
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "plant.crop_growable": true,
-    // config.waila.plugin_minecraft.plant.tree_growable
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать возможность роста деревьев
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "plant.tree_growable": true,
-    // config.waila.plugin_minecraft.redstone.lever
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать положение рычага
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "redstone.lever": true,
-    // config.waila.plugin_minecraft.redstone.repeater
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать задержку повторителя
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "redstone.repeater": true,
-    // config.waila.plugin_minecraft.redstone.comparator
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать режим компаратора
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "redstone.comparator": true,
-    // config.waila.plugin_minecraft.redstone.level
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать уровень сигнала
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "redstone.level": true,
-    // config.waila.plugin_minecraft.player_head.name
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать никнейм
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "player_head.name": true,
-    // config.waila.plugin_minecraft.level.composter
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать уровень компоста
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "level.composter": true,
-    // config.waila.plugin_minecraft.note_block.type
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать инструмент и ноту
+    // This value will get merged with the value from the server
+    // Default value: [true]
     "note_block.type": true,
-    // config.waila.plugin_minecraft.note_block.note
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Режим отображения нот
+    // Default value: [SHARP]
+    // Available values: [SHARP, FLAT]
     "note_block.note": "SHARP",
-    // config.waila.plugin_minecraft.note_block.int_value
-    // json5.waila.config.default_value
+    // Число
+    // Default value: [false]
     "note_block.int_value": false,
-    // config.waila.plugin_minecraft.book.bookshelf
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Показывать число книг на полке
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "book.bookshelf": true,
-    // config.waila.plugin_minecraft.book.enchantment
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Отображение зачарований
+    // Default value: [CYCLE]
+    // Available values: [SEPARATE, COMBINED, CYCLE, DISABLED]
     "book.enchantment": "CYCLE",
-    // config.waila.plugin_minecraft.book.enchantment_cycle_timing
-    // json5.waila.config.default_value
+    // Время цикла (в миллисекундах)
+    // Default value: [500]
     "book.enchantment_cycle_timing": 500,
-    // config.waila.plugin_minecraft.book.written
-    // json5.waila.config.default_value
+    // Показывать автора и дату записанных книг
+    // Default value: [true]
     "book.written": true
   },
   harvest: {
-    // config.waila.plugin_harvest.enabled
-    // json5.waila.config.plugin.merged
-    // json5.waila.config.default_value
+    // Отображать информацию для добычи
+    // This value will get merged with the value from the server
+    // Default value: [true]
     enabled: true,
-    // config.waila.plugin_harvest.display_mode
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Режим отображения
+    // Default value: [MODERN]
+    // Available values: [MODERN, CLASSIC, CLASSIC_MINIMAL]
     display_mode: "MODERN",
-    // config.waila.plugin_harvest.creative
-    // json5.waila.config.default_value
+    // Отображать в творческом режиме
+    // Default value: [false]
     creative: false
   },
   wailax: {
-    // config.waila.plugin_wailax.energy.enabled_block
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Энергия блоков
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "energy.enabled_block": true,
-    // config.waila.plugin_wailax.energy.enabled_entity
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Энергию сущностей
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "energy.enabled_entity": true,
-    // config.waila.plugin_wailax.energy.blacklist
-    // json5.waila.config.plugin.custom_file
+    // Черный список
+    // Custom config, open the following file
     // /Users/feanorandcroun/Library/Application Support/minecraft/home/Fabric 1.21/config/waila/extra/energy_blacklist.json5
     "energy.blacklist": null,
-    // config.waila.plugin_wailax.fluid.enabled_block
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Жидкости в блоках
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "fluid.enabled_block": true,
-    // config.waila.plugin_wailax.fluid.enabled_entity
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Жидкости в сущностях
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "fluid.enabled_entity": true,
-    // config.waila.plugin_wailax.fluid.display_unit
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Единицы измерения
+    // Default value: [MILLIBUCKETS]
+    // Available values: [MILLIBUCKETS, DROPLETS]
     "fluid.display_unit": "MILLIBUCKETS",
-    // config.waila.plugin_wailax.fluid.blacklist
-    // json5.waila.config.plugin.custom_file
+    // Черный список
+    // Custom config, open the following file
     // /Users/feanorandcroun/Library/Application Support/minecraft/home/Fabric 1.21/config/waila/extra/fluid_blacklist.json5
     "fluid.blacklist": null,
-    // config.waila.plugin_wailax.progress.enabled_block
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Процесс крафта блоков
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "progress.enabled_block": true,
-    // config.waila.plugin_wailax.progress.enabled_entity
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Процесс крафта сущностей
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "progress.enabled_entity": true,
-    // config.waila.plugin_wailax.progress.blacklist
-    // json5.waila.config.plugin.custom_file
+    // Черный список
+    // Custom config, open the following file
     // /Users/feanorandcroun/Library/Application Support/minecraft/home/Fabric 1.21/config/waila/extra/progress_blacklist.json5
     "progress.blacklist": null,
-    // config.waila.plugin_wailax.item.enabled_block
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Содержание блоков
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "item.enabled_block": true,
-    // config.waila.plugin_wailax.item.enabled_entity
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Содержимое сущностей
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "item.enabled_entity": true,
-    // config.waila.plugin_wailax.item.nbt
-    // json5.waila.config.plugin.server_required
-    // json5.waila.config.default_value
+    // Синхронизировать NBT данные
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
     "item.nbt": true,
-    // config.waila.plugin_wailax.item.display_mode
-    // json5.waila.config.default_value
-    // json5.waila.config.available_values
+    // Режим отображения
+    // Сетка: отображение подобно интерфейсу контейнера
+    // Список: отображение в виде списка
+    // Динамически: до заданной высоты отображение в виде сетки, дальше, в виде списка
+    // Default value: [DYNAMIC]
+    // Available values: [GRID, LIST, DYNAMIC]
     "item.display_mode": "DYNAMIC",
-    // config.waila.plugin_wailax.item.max_height
-    // json5.waila.config.default_value
+    // Максимальная высота
+    // Default value: [3]
     "item.max_height": 3,
-    // config.waila.plugin_wailax.item.sort_by_count
-    // json5.waila.config.default_value
+    // Сортировать по количеству
+    // Default value: [true]
     "item.sort_by_count": true,
-    // config.waila.plugin_wailax.item.blacklist
-    // json5.waila.config.plugin.custom_file
+    // Черный список
+    // Custom config, open the following file
     // /Users/feanorandcroun/Library/Application Support/minecraft/home/Fabric 1.21/config/waila/extra/item_blacklist.json5
     "item.blacklist": null
   }
