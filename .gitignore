@@ -17,6 +17,7 @@ XaeroWaypoints*
 command_history.txt
 options.txt
 servers.dat
+servers.dat_*
 servers.dat.*
 usercache.json
 
