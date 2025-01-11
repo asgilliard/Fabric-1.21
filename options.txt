@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:1.0
 graphicsMode:1
 guiScale:2
@@ -50,7 +50,7 @@ highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","file/UniqueEnchantedBooks_v2.1.zip","file/Mob Spawn Egg 1.21 Add-on.zip","file/Dramatic Skys Demo 1.5.3.29.zip","continuity:glass_pane_culling_fix","file/Default-Dark-Mode-1.20.2+-2024.6.0.zip","black_icons"]
 incompatibleResourcePacks:["deeperdarker","dungeons_arise","modernfix","mr_dungeons_andtaverns","terrablender","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/Dramatic Skys Demo 1.5.3.29.zip"]
-lastServer:172.30.143.203:61551
+lastServer:172.23.143.203:61551
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
@@ -127,10 +127,21 @@ key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
+key_key.carry.desc:key.keyboard.unknown
 key_key.deeperdarker.boost:key.keyboard.unknown
 key_key.deeperdarker.transmit:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.left.alt
+key_keybindings.spell_engine.spell_hotbar_1:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_2:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_3:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_4:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_5:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_6:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_7:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_8:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_9:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.v
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
@@ -185,7 +196,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.28447718336092714
+soundCategory_master:0.3821207574503311
 soundCategory_music:0.8618232834507042
 soundCategory_record:0.8344428550469485
 soundCategory_weather:0.0
