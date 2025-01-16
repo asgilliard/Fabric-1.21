@@ -8,10 +8,14 @@ downloads
 logs
 moddata
 saves
+schematics
 screenshots
 server-resource-packs
 xaero
 XaeroWaypoints*
 command_history.txt
 servers.dat*
+emi.json
 usercache.json
+
+mods/litematica*
