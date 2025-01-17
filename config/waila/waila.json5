@@ -3,7 +3,7 @@
     // Отображать подсказки
     // Собирать данные и отображать подсказки
     // Default value: [true]
-    displayTooltip: false,
+    displayTooltip: true,
     // Умные данные
     // Основная информация скрыта, пока вы не пригнетесь
     // Default value: [false]
