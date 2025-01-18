@@ -5,7 +5,6 @@ CTOV
 Advanced Netherite
 Archers
 Artifacts
-Bosses of Mass Destruction
 Deeper and Darker
 Dungeons and Taverns
 Dungeons Arise
@@ -37,7 +36,10 @@ Chat Heads
 Clean F3
 Continuity
 Dynamic Lights
+Entity Model Features
+Entity Texture Features
 Falling Leaves
+Infinite Music
 Lightweight Inventory Sorting
 Mod Menu
 Mouse Tweaks

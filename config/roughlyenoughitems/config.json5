@@ -3,7 +3,7 @@
 		"favorites": [],
 		"hiddenFavorites": [],
 		"displayHistory": [],
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"reduceMotion": false,
 		"keyBindings": {
@@ -170,7 +170,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			]
 		}
 	}
