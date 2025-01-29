@@ -18,5 +18,10 @@ servers.dat*
 emi.json
 usercache.json
 
+*.log
+
+mods/Distant*
 mods/emi*
 mods/litematica*
+
+resourcepacks/*Evengard*

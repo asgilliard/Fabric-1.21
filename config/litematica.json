@@ -137,7 +137,7 @@
       "keys": ""
     },
     "openGuiMainMenu": {
-      "keys": "M"
+      "keys": "APOSTROPHE"
     },
     "openGuiMaterialList": {
       "keys": "M,L"

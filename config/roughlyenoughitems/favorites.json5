@@ -1,5 +1,8 @@
 {
-	"favorites": [],
+	"favorites": [
+		"{data:{count:1,id:\"minecraft:polished_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"minecraft:water_bucket\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
 	"hiddenFavorites": [],
 	"displays": []
 }
