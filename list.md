@@ -6,6 +6,7 @@
 - Artifacts
 - Archers
 - Deeper and Darker
+- Disenchanter
 - Dungeons and Taverns
 - Dungeons Arise
 - Dungeons Arise: Seven Seas
@@ -13,6 +14,7 @@
 - Handcrafted
 - Incendium
 - Jewelry
+- Just Hammers
 - More Mob Variants
 - Netherite Compass
 - Nullscape
@@ -77,15 +79,15 @@
 - Very Many Players
 
 ## Механики:
-- - Anvil Never Too Expensive
-- - Carry On
-- - Chunky
-- - Falling Tree
-- - Gravestones
-- - Not Enough Animations
-- - Public Ender Chests
-- - Sit
-- - Simple Voice Chat
+- Anvil Never Too Expensive
+- Carry On
+- Chunky
+- Falling Tree
+- Gravestones
+- Not Enough Animations
+- Public Ender Chests
+- Sit
+- Simple Voice Chat
 
 ## Библиотеки:
 - Architectury
